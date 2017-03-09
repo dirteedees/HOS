@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'gameover';
+    src: ('fonts/gameover.tff') format: ('ttf');
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font: black;
+}
+
+body h1 {
+    font-size: 400%, auto;
+}
+
+#page {
+    padding-top: 55px;
+}
+
+.title h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: aliceblue;
+    font-family: 'Press Start 2P', 'gameover', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: aliceblue;
+    font-family: 'Press Start 2P', 'gameover', cursive;
+}
+
+#shorts {
+    color: black;
+    background-color: black
+}
+
+.hsbadge {
+    padding: 10px;
+    border: solid 3px goldenrod;
+    padding-bottom: 3em;
+    z-index: 1;
+    min-width: auto
+}
+
+.hsbadge img,
+.hstbadge img,
+.hsgbadge img  {
+    max-width: 100%;
+    height: auto;
+    display: block;
+     padding: 5px 0px 5px 0px;
+}
+
+.twitter {
+    position: absolute;
+    left: 175px;
+    top: 150px;
+}
+
+#twit_feed {
+    
+    padding-bottom: 10px;
+    padding-top: 22px;
+}
+
+.rating {
+    padding-bottom: 1px;
+}
+
+.article {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: black;
+}
+
+strong {
+    font-size: 400%;
+}
+
+.well p {
+    color: black;
+}
+
+.bios {
+    color: aliceblue;
+    font-family: 'Press Start 2P', 'gameover', cursive;
+}
+
+.bios img {
+    border: solid 3px goldenrod;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#pppic {
+    max-width: 200px;
+    border: solid 5px goldenrod;
+}
+
+.past_picks img {
+    max-width: 260px;
+    align-content: center;
+}
+
+.pookspick p {
+    margin-top: 20px;
+    font-size: 200%;
+    font-family: 'Press Start 2p', 'gameover', cursive;
+}
+
+.jumbotron {
+    color: black;
+    text-align: center;
+    width: auto;
+}
+
+.btn {
+    color: white;
+    background-color: goldenrod;
+}
+
+#mobilebuttons {
+    max-width: auto;
+}
+
+.collapse {
+    max-width: auto;
+}
+
+.collapsetext {
+    color: black;
+}
+
+#accordion {
+    color: black;
+}
+
+.modal {
+    color: black;
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+.row.content {
+    height: 1000px
+}
+
+
+/* Set gray background color and 100% height */
+
+.sidenav {
+    padding-top: 10px;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+
+footer {
+    background-color: #14191E;
+    color: white;
+    font-size: 200%;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 10px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+#deadpool2ndthought {
+    color: greenyellow;
+}
+
+
+/* HoS GAME stlye */
+
+.hsgbadge img {
+    padding: 1em;
+}
+
+
+/*left and right for logo */
+
+.hsgbadge {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #1ba611 0%, black 50%, #1ba611);
+    -webkit-border-image: -webkit-linear-gradient(top, #1ba611 0%, black 50%, #1ba611);
+    border-image: linear-gradient(to bottom, #1ba611 0%, black 50%, #1ba611);
+    border-image-slice: 1;
+}
+
+
+/* top and bottom for logo*/
+
+.hsgbadge {
+    border-top: solid 3px #1ba611;
+    border-bottom: solid 3px #1ba611;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+#gpppic {
+    max-width: 200px;
+    border: solid 5px#1ba611;
+}
+
+.gbtn {
+    color: white;
+    background-color: #0D8D00;
+}
+
+
+/* END GAME STYLING */
+
+
+/*===--Tech styling--===*/
+
+.tnavbar {
+    background-color: #152e69;
+}
+
+#mytNavbar li{
+            background: #152e69;
+            border-right: 2px solid white;
+                
+            
+}
+
+body {
+    background: linear-gradient(1deg, #000000, #19387F, #0D1C40);
+    background-size: 100%;
+    -webkit-animation: hstbadge 4s ease infinite;
+    -moz-animation: hstbadge 4s ease infinite;
+    animation: hstbadge 4s ease infinite;
+    @-webkit-keyframes hstbadge {
+        0% {
+            background-position: 53% 0%
+        }
+        50% {
+            background-position: 48% 100%
+        }
+        100% {
+            background-position: 53% 0%
+        }
+    }
+    @-moz-keyframes hstbadge {
+        0% {
+            background-position: 53% 0%
+        }
+        50% {
+            background-position: 48% 100%
+        }
+        100% {
+            background-position: 53% 0%
+        }
+    }
+    @keyframes hstbadge {
+        0% {
+            background-position: 53% 0%
+        }
+        50% {
+            background-position: 48% 100%
+        }
+        100% {
+            background-position: 53% 0%
+        }
+    }
+}
+
+#hstbadge {
+    border: solid goldenrod 5px;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#hstbadge img {
+   position: relative;
+}
+
+.tfooter {
+    background-color: black;
+}
+
+.tbtn {
+    color: white;
+    background-color: #152E69;
+}

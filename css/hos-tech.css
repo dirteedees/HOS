@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'gameover';
+    src: ('fonts/gameover.tff') format: ('ttf');
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+body h1 {
+    font-size: 400%, auto;
+}
+
+.title {
+    color: aliceblue;
+    font-family: 'Press Start 2P', 'gameover', cursive;
+}
+
+.hsbadge img {
+    padding: 1em;
+}
+
+
+/*left and right for logo */
+
+.hsbadge {
+   background: linear-gradient(180deg, #095aa8, #000000);
+background-size: 10% 100%;/* ^^ gradeint angle*/
+
+-webkit-animation: hsbadge 6s ease infinite;
+animation: hosbadgeside 6s ease infinite;
+ /* changes at pointers ^  and the number on first line, changes pulse duration*/
+@-webkit-keyframes hsbadge {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+} /*changes at pointers      ^^ ^^ percentages change scroll angle*/
+@keyframes hsbadge { 
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+}
+
+
+/* top and bottom for logo*/
+
+.hsbadge {
+    border-top: solid 3px #1ba611;
+    border-bottom: solid 3px #1ba611;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.twitter {
+    position: absolute;
+    left: 190px;
+    top: 170px;
+}
+
+.facebook {
+    position: absolute;
+    TOP: 170px;
+    right: 250px;
+}
+
+#rating {
+    margin: auto;
+}
+
+#reviewer {
+    margin: auto;
+}
+
+.article {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: black;
+}
+
+.well p {
+    color: black;
+}
+
+.bios {
+    color: aliceblue;
+    font-family: 'Press Start 2P', 'gameover', cursive;
+}
+
+#pppic {
+    max-width: 200px;
+    border: solid 5px#1ba611;
+}
+
+.pookspick p {
+    font-size: 200%;
+    font-family: 'Press Start 2p', 'gameover', cursive;
+}
+
+.jumbotron {
+    color: black;
+    text-align: center;
+    width: auto;
+}
+
+.btn {
+    color: white;
+    background-color: #152E69;
+}
+
+#mobilebuttons {
+    max-width: auto;
+}
+
+.collapse {
+    max-width: auto;
+}
+
+#accordion {
+    color: black;
+}
+
+.modal {
+    color: black;
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: black
+}
+
+.navbar ulli:hover {
+    background-color: #25407F;
+}
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+.row.content {
+    height: 1000px
+}
+
+
+/* Set gray background color and 100% height */
+
+.sidenav {
+    padding-top: 10px;
+    height: 100%;
+}
+
+
+/* Set black background color, white text and some padding */
+
+footer {
+    background-color: #14191E;
+    color: white;
+    padding-top: 10px;
+    font-size: 200%;
+    z-index: -1;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 10px;
+    }
+    .row.content {
+        height: auto;
+    }
+}

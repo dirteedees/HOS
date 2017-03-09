@@ -1,0 +1,128 @@
+@font-face{
+    font-family:'gameover';
+    src: ('fonts/gameover.tff') format:('ttf');
+}
+
+body {
+    background-color:black;
+    color: aliceblue;
+}
+
+body h1 {
+    font-size: 400%, auto; 
+}
+
+.title {
+    color: aliceblue;
+    font-family: 'Press Start 2P', 'gameover',cursive;
+}
+
+.hsbadge {
+    padding: 10px;
+    border: solid 3px goldenrod;
+    margin-bottom: 2em;
+    z-index: 1;
+    min-width: auto
+}
+.twitter    
+{
+  
+    position: fixed;
+    
+   
+}
+
+.facebook{
+    
+    position: fixed;
+    float: right
+}
+
+strong {
+    font-size: 400%;
+}
+
+.well p {
+    color: black;
+}
+
+.bios   {
+    color: aliceblue;
+    font-family: 'Press Start 2P', 'gameover',cursive;
+}
+
+
+.pppic {
+   
+    max-width: 200px;
+    border: solid 5px goldenrod;
+
+}  
+.pookspick p {
+    font-size: 200%;
+    font-family: 'Press Start 2p',
+        'gameover', cursive;
+}
+
+.jumbotron  {
+    
+    color: black;
+     text-align: center;
+       width: auto;
+}
+
+.btn {
+    background-color: goldenrod;
+    
+    
+}
+
+.mobilebuttons{
+  max-width: auto;
+}
+
+.collapse{
+    max-width: auto;
+}
+
+.collapsetext {
+    color: black; 
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 1000px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 10px;
+           height: 100%; 
+       
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #14191E;
+      color: white;
+      padding-top:10px ; font-size: 200%;
+        z-index: -1; 
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+     
+.sidenav {
+        height: auto;
+        padding: 10px;
+      }
+      .row.content {height:auto;} 
+    }
+#deadpool2ndthought {
+    color: greenyellow;
+}
