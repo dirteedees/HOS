@@ -68,7 +68,7 @@ p {
 }
 
 #twit_feed {
-    
+
     padding-bottom: 10px;
     padding-top: 22px;
 }
@@ -149,7 +149,6 @@ strong {
 .modal {
     color: black;
 }
-
 
 /* Remove the navbar's default margin-bottom and rounded borders */
 
@@ -250,11 +249,11 @@ footer {
 #mytNavbar li{
             background: #152e69;
             border-right: 2px solid white;
-                
-            
+
+
 }
 
-body {
+#techbody body {
     background: linear-gradient(1deg, #000000, #19387F, #0D1C40);
     background-size: 100%;
     -webkit-animation: hstbadge 4s ease infinite;
