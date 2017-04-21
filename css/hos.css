@@ -193,7 +193,7 @@ footer {
     }
 }
 
-#deadpool2ndthought {
+#Greentext {
     color: greenyellow;
 }
 
@@ -215,10 +215,7 @@ footer {
     border-image: linear-gradient(to bottom, #1ba611 0%, black 50%, #1ba611);
     border-image-slice: 1;
 }
-
-
 /* top and bottom for logo*/
-
 .hsgbadge {
     border-top: solid 3px #1ba611;
     border-bottom: solid 3px #1ba611;
@@ -235,13 +232,9 @@ footer {
     color: white;
     background-color: #0D8D00;
 }
-
-
-/* END GAME STYLING */
-
+/*-----+======= END GAME STYLING==========+-------- */
 
 /*===--Tech styling--===*/
-
 .tnavbar {
     background-color: #152e69;
 }
@@ -249,8 +242,6 @@ footer {
 #mytNavbar li{
             background: #152e69;
             border-right: 2px solid white;
-
-
 }
 
 #techbody body {
