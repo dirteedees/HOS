@@ -45,9 +45,10 @@ p {
 }
 
 .hsbadge {
-    padding: 10px;
-    border: solid 3px goldenrod;
-    padding-bottom: 3em;
+  border: solid goldenrod 5px;
+  margin-bottom: 5px;
+  margin-left: -15px;
+  margin-right: -15px;
     z-index: 1;
     min-width: auto
 }
