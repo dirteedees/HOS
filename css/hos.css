@@ -45,9 +45,10 @@ p {
 }
 
 .hsbadge {
-    padding: 10px;
-    border: solid 3px goldenrod;
-    padding-bottom: 3em;
+  border: solid goldenrod 5px;
+  margin-bottom: 5px;
+  margin-left: -15px;
+  margin-right: -15px;
     z-index: 1;
     min-width: auto
 }
@@ -242,9 +243,17 @@ footer {
 #mytNavbar li{
             background: #152e69;
             border-right: 2px solid white;
+<<<<<<< HEAD
 }
 
 #techbody body {
+=======
+
+
+}
+
+#Techbody  {
+>>>>>>> origin/master
     background: linear-gradient(1deg, #000000, #19387F, #0D1C40);
     background-size: 100%;
     -webkit-animation: hstbadge 4s ease infinite;

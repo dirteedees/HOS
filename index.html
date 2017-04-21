@@ -31,6 +31,43 @@
 </head>
 
 <body>
+<<<<<<< HEAD
+=======
+  <!-- for loop changes the laft nav buttons color "randomly"-->
+  <script>
+      function rngcolor() {
+          var buttons = ['newest', 'reviews', 'bios', 'forum', 'hofs', 'pastp'];
+          for (var i = 0; i < buttons.length; i++) {
+              var buttonToChange = document.getElementById(buttons[i]);
+
+              var colors = ['#46B040', '#3E5792', '#D74E52', '#D9D84F'];
+
+              /*
+                you might could use Window.getComputedStyle() to programmaticaaly
+                get the current background of the button
+                see: https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle
+              */
+              var buttonCurrentBG = '#152E69';
+
+              // Change hover state on mouseenter to random color from list
+              buttonToChange.addEventListener('mouseenter', function (e) {
+
+                  // I removed the +1 at the end. I kept getting 'undefined' occasionally when it was still there
+
+                  var random_color = colors[Math.floor(Math.random() * (colors.length))];
+                  this.style.backgroundColor = random_color;
+              });
+
+              // Change button bg back to what it was before
+
+              buttonToChange.addEventListener('mouseleave', function (e) {
+                  this.style.backgroundColor = buttonCurrentBG;
+              });
+          }
+      }
+  </script>
+
+>>>>>>> origin/master
     <!--twitter btn script-->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
@@ -56,16 +93,15 @@
 
     <div class="container-fluid text-center">
         <div class="row content">
-
-            <!-- left nav-->
+          <!-- left nav-->
             <div class="col-sm-2 sidenav">
                <!--left nav buttons-->
                <div class="mobilebuttons">
                 <div class="center-block btn-group-vertical" role="group" aria-label="...">
-                  <a class="btn btn-default btn-lg" disabled="disabled" href="#" role="button">Newest</a>
-                  <a class="btn btn-default btn-lg" disabled="disabled" href="#" role="button">Reviews</a>
+                <!--  <a class="btn btn-default btn-lg" disabled="disabled" href="#" role="button">Newest</a>
+                  <a class="btn btn-default btn-lg" disabled="disabled" href="#" role="button">Reviews</a>-->
                   <a class="btn btn-default btn-lg" href="Bios.html" role="button">Bios</a>
-                  <a class="btn btn-default btn-lg" disabled="disabled" href="#" role="button">Forum (coming soon)</a>
+                <!--  <a class="btn btn-default btn-lg" disabled="disabled" href="#" role="button">Forum (coming soon)</a> -->
                   <a class="btn btn-default btn-lg"  href="Hall_of_shame-fame.html" role="button">Hall of Fame-Shame</a>
                   <a class="btn btn-default btn-lg" href="pastpicks.html" role="button">Past Picks</a>
                 </div>
@@ -84,12 +120,14 @@
             <!-- center panel-->
             <div class="col-sm-8 text-left">
                 <h1 class="text-center title">Hit or Shit </h1>
+                <hr>
                 <div class="container-fluid hsbadge">
                     <div class="content" >
                      <!--hos emblem-->
                         <img class="center-block" src="images/HIT%20or%20SHIT%202.png" alt="hsbadge">
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div class="title">
                     <h1 class="text-center" >We have our First Inductee to the Hall of Fame - Shame</h1>
                 </div>
@@ -157,27 +195,10 @@
                      <a href="10_cloverfield_lane.html">
                       <h4>Full Review</h4>
                     </a>
+=======
+                  <a class="btn btn-default btn-md btn-block" href="Article_Comfy.html" role="button"><b>Lets get Comfy</b></a>
+>>>>>>> origin/master
                 </div>
-              </div>
-            </div>
-             <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                      <img src="images/Profiles/pooks.png" alt="POOKS avi">
-                      Batman vs. Superman
-                      <img src="images/GOLD%20BIG%20SHIT.png" width="3%">
-                    </a>
-                </h4>
-              </div>
-              <div id="collapse4" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <img class=" img-responsive" src="images/bat.jpg" alt="27.03.16" width="15%">
-                    <p class="collapsetext">"Batman V Superman" is overcrowded and overstuffed, while somehow managing to be underdeveloped. Everything from the writing to the editing is just bad. The movie worries more about setting up other movies than it does being it's own movie.
-It's an unprecedented train wreck, possibly this generation's "Water world"</p>
-                     <a href="batvman.html">
-                      <h4>Full Review</h4>
-                    </a>
                 </div>
               </div>
             </div>
