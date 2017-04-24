@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -107,68 +108,44 @@
                     <br>
                     <!-- POOKS PIC PATH AND POSTER BELOW-->
                         <img class="img-responsive center-block" src="" id="pppic"  alt="pppic">
+=======
+<?php 
+require('header.php');
+require('nav.php');
+require('pooks_pick.php');
+require('center_panel.php');
+?>
+<!-- short review tabs-->
+<div class="container-fluid shorts" id="shorts">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                        <img src=""  alt="">
+                            <!--Reviewer avi PICTURE LINE ABOVE-->
+                            <!--MOVIE TITLE GOES HERE -->
+                            <!--Rating img lin below-->
+                            <img src="" width="3%">
+>>>>>>> master
                     </a>
-                </div>
+                </h4>
             </div>
-
-            <!-- center panel-->
-            <div class="col-sm-8 text-left">
-                <h1 class="text-center title">Hit or Shit </h1>
-                <hr>
-                <div class="container-fluid hsbadge">
-                    <div class="content" >
-                     <!--hos emblem-->
-                        <img class="center-block" src="images/HIT%20or%20SHIT%202.png" alt="hsbadge">
-                    </div>
+            <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <!--movie poster line  below-->
+                    <img src="" alt="POSTER" width="15%">
+                    <p class="collapsetext"><!--SHORT REVIEWS HERE!!!!!!!!!!!!!!!!!!!!!-->
+                        <a href=""<!--FULL REVIEW PATH HERE-->
+                            <h4>Full Review</h4>
+                        </a>
+                    </p>
                 </div>
-                <!-- short review tabs-->
-                <div class="container-fluid shorts" id="shorts">
-                    <div class="panel-group" id="accordion">
-                      <div class="panel panel-default">
-                          <div class="panel-heading">
-                              <h4 class="panel-title">
-                                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                                    <img src=""  alt="">
-                                    <!--Reviewer avi PICTURE LINE ABOVE-->
-                                   <!--MOVIE TITLE GOES HERE -->
-                                   <!--Rating img lin below-->
-                                    <img src="" width="3%">
-                                  </a>
-                              </h4>
-                          </div>
-                          <div id="collapse1" class="panel-collapse collapse">
-                              <div class="panel-body">
-                                <!--movie poster line  below-->
-                                  <img src="" alt="POSTER" width="15%">
-                                      <p class="collapsetext"><!--SHORT REVIEWS HERE!!!!!!!!!!!!!!!!!!!!!--></p>
-                                  <a href=""<!--FULL REVIEW PATH HERE-->
-                                      <h4>Full Review</h4>
-                                  </a>
-                              </div>
-                          </div>
-                      </div>
-                </div>
-              </div>
             </div>
         </div>
     </div>
-        </div>
-            <!-- right "nav"-->
-            <div class="col-sm-2 sidenav">
-                <div class="mobilebuttons">
-
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
-    <!-- DONT TOUCH -->
-    <footer class="container-fluid text-center">
-        <em>"One jaded hipster's opinion"</em>
-    </footer>
-
+</div>
+<?php require('footer.php');?>
 </body>
 
 </html>
