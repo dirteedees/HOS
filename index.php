@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -108,8 +108,8 @@
                     <br>
                     <!-- POOKS PIC PATH AND POSTER BELOW-->
                         <img class="img-responsive center-block" src="" id="pppic"  alt="pppic">
-=======
-<?php 
+
+<?php
 require('header.php');
 require('nav.php');
 require('pooks_pick.php');
@@ -127,7 +127,7 @@ require('center_panel.php');
                             <!--MOVIE TITLE GOES HERE -->
                             <!--Rating img lin below-->
                             <img src="" width="3%">
->>>>>>> master
+
                     </a>
                 </h4>
             </div>
