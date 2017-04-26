@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'gameover';
     src: ('fonts/gameover.tff') format: ('ttf');
@@ -96,14 +95,6 @@ strong {
 .bios {
     color: aliceblue;
     font-family: 'Press Start 2P', 'gameover', cursive;
-}
-
-#Staffbios{
-  border: solid 5px  goldenrod;
-
-}
-.well{
-  padding: 0px, 3px, 0px, 0px;
 }
 
 .bios img {
@@ -254,7 +245,7 @@ footer {
             border-right: 2px solid white;
 }
 
-/*#Techbody  {
+#Techbody  {
 
     background: linear-gradient(1deg, #000000, #19387F, #0D1C40);
     background-size: 100%;
@@ -294,7 +285,7 @@ footer {
             background-position: 53% 0%
         }
     }
-}*/
+}
 
 #hstbadge {
     border: solid goldenrod 5px;
