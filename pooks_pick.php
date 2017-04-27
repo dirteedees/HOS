@@ -1,5 +1,5 @@
 </div>
-    <!--pook's pick-->
+    <!--This php module is the Pooks pick section for the left tile of Hit or Shit -->
 <div class="pookspick">
     <p class="text-center ">Pook's Pick</p>
     <br>

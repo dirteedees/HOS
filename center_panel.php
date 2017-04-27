@@ -1,4 +1,4 @@
-<!-- center panel-->
+<!--This php module is pCenter focal tile of the bootstrap skeleton Hit or Shit is build on-->
 <div class="col-sm-8 text-left">
     <h1 class="text-center title">Hit or Shit </h1>
     <hr>

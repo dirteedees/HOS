@@ -1,3 +1,5 @@
+<!--This php module calls all of the css and js, fonts for the Hit or Shit site
+ This must be called for ALL PAGES  -->
 <!DOCTYPE html>
 <html lang="en">
 

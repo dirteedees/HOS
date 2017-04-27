@@ -1,3 +1,4 @@
+<!--This php module if the navigation componets for Hit or Shit -->
 <nav class="navbar navbar-inverse tnavbar">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -6,9 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-
                 </button>
-
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -16,7 +15,6 @@
                     <li class="active" id="NavTech"><a href="tech.php">Tech</a></li>
                     <li class="active" id="NavGames"><a href="Games_header.php">Games</a></li>
                 </ul>
-
             </div>
         </div>
     </nav>
