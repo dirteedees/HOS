@@ -98,7 +98,7 @@ strong {
 }
 
 .bios img {
-    border: solid 5px goldenrod;
+    border: solid 3px goldenrod;
     max-width: 100%;
     height: auto;
     display: block;
@@ -127,11 +127,11 @@ strong {
 }
 
 .btn {
-    color: ;
+    color: white;
     background-color: goldenrod;
 }
 
-.mobilebuttons {
+#mobilebuttons {
     max-width: auto;
 }
 
@@ -243,9 +243,17 @@ footer {
 #mytNavbar li{
             background: #152e69;
             border-right: 2px solid white;
+<<<<<<< HEAD
+}
+
+#techbody body {
+=======
+
+
 }
 
 #Techbody  {
+>>>>>>> origin/master
     background: linear-gradient(1deg, #000000, #19387F, #0D1C40);
     background-size: 100%;
     -webkit-animation: hstbadge 4s ease infinite;
@@ -286,14 +294,14 @@ footer {
     }
 }
 
-#hstbadge {
+.hstbadge {
     border: solid goldenrod 5px;
     margin-bottom: 5px;
     margin-left: -15px;
     margin-right: -15px;
 }
 
-#hstbadge img {
+.hstbadge img {
    position: relative;
 }
 
