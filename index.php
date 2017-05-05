@@ -3,6 +3,7 @@ require('header.php');
 require('nav.php');
 require('pooks_pick.php');
 require('center_panel.php');
+require('twitfeed.php');
 ?>
 <!-- short review tabs-->
 <div class="container-fluid shorts" id="shorts">
@@ -25,7 +26,7 @@ require('center_panel.php');
                     <!--movie poster line  below-->
                     <img src="" alt="POSTER" width="15%">
                     <p class="collapsetext"><!--SHORT REVIEWS HERE!!!!!!!!!!!!!!!!!!!!!-->
-                        <a href=""<!--FULL REVIEW PATH HERE-->
+                        <a href=""><!--====++link to full review++===-->
                             <h4>Full Review</h4>
                         </a>
                     </p>
