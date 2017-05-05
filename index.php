@@ -3,7 +3,6 @@ require('header.php');
 require('nav.php');
 require('pooks_pick.php');
 require('center_panel.php');
-require('twitfeed.php');
 ?>
 <!-- short review tabs-->
 <div class="container-fluid shorts" id="shorts">
@@ -35,6 +34,7 @@ require('twitfeed.php');
         </div>
     </div>
 </div>
+<?php require('twitfeed.php');?>
 <?php require('footer.php');?>
 </body>
 
