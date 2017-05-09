@@ -126,6 +126,6 @@ require('center_panel.php');
    </div>
 </div>
 
+<?php require ('footer.php');?>
 </body>
-
 </html>
